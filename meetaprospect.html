@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="mapstyle.css">
+</head>
+
+<body>
+   <img src="//img1.wsimg.com/isteam/ip/0452148e-1adc-4a0d-9326-2f627468500d/Screen%20Shot%202022-12-04%20at%2017.09.30-19aaa7e.png/:/rs=h:170,cg:true,m/qt=q:95" class ='logo'alt="">
+
+  <nav class="navHeader">
+    <a href="home.html">HOME</a>
+    <a href="meetaprospect.html">MEET A PROSPECT</a>
+    <a href="jointhecommunity.html">JOIN THE COMMUNITY</a>
+  </nav>
+
+  <section class="callRequest">
+    <div class="request-grid">
+      <div>
+        <h5>DISCOVERY</h5>
+        <h1>Request a discovery call</h1>
+        <p>Tell us who you serve in the utility stack and we’ll confirm a time.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="forms">
+    <div class="card">
+        <form action="https://formspree.io/f/xyz123" method="POST" id="discoveryForm" novalidate="">
+          <!-- Honeypot -->
+          <input type="text" name="website" id="website" autocomplete="off" style="position:absolute;left:-5000px;top:auto;width:1px;height:1px;opacity:0;" tabindex="-1" aria-hidden="true">
+
+          <div class="grid grid-2">
+            <div class="field">
+              <label for="name">Full name *</label>
+              <input type="text" id="name" name="name" placeholder="Jane Smith" required>
+              <div class="err" id="err-name">Please enter your name.</div>
+            </div>
+
+            <div class="field">
+              <label for="email">Work email *</label>
+              <input type="email" id="email" name="email" placeholder="jane@company.com" required>
+              <div class="muted">Use your company email so we can share prep materials.</div>
+              <div class="err" id="err-email">Please enter a valid company email.</div>
+            </div>
+          </div>
+
+          <div class="grid grid-2">
+            <div class="field">
+              <label for="company">Company *</label>
+              <input type="text" id="company" name="company" placeholder="Acme Grid Tech" required>
+              <div class="err" id="err-company">Please enter your company.</div>
+            </div>
+
+            <div class="field">
+              <label for="country">Country *</label>
+              <select id="country" name="country" required>
+                <option value="">Select a country</option>
+                <option>Brazil</option>
+                <option>Mexico</option>
+                <option>Chile</option>
+                <option>Colombia</option>
+                <option>Argentina</option>
+                <option>Peru</option>
+                <option>Other LATAM</option>
+                <option>United States</option>
+                <option>Europe</option>
+                <option>Other</option>
+              </select>
+              <div class="err" id="err-country">Please choose a country.</div>
+            </div>
+          </div>
+
+          <div class="field">
+            <label>Segment you target *</label>
+            <div class="checks">
+              <label class="check"><input type="checkbox" name="segment" value="Generation"> Generation</label>
+              <label class="check"><input type="checkbox" name="segment" value="Transmission"> Transmission</label>
+              <label class="check"><input type="checkbox" name="segment" value="Distribution"> Distribution</label>
+            </div>
+            <div class="err" id="err-segment">Select at least one segment.</div>
+          </div>
+
+          
+          <div class="field">
+            <label for="roles">What roles within the company are you targeting? (optional)</label>
+            <input type="text" id="roles" name="roles" placeholder="e.g., Operations managers, Procurement, CTO">
+          </div>
+
+          <div class="field">
+            <label>Languages for outreach *</label>
+            <div class="checks">
+              <label class="check"><input type="checkbox" name="langs" value="EN"> English (EN)</label>
+              <label class="check"><input type="checkbox" name="langs" value="ES"> Spanish (ES)</label>
+              <label class="check"><input type="checkbox" name="langs" value="PT"> Portuguese (PT)</label>
+            </div>
+            <div class="err" id="err-langs">Select at least one language.</div>
+          </div>
+
+          <div class="field">
+            <label for="objective">Objective for the next 30 days (optional)</label>
+            <input type="text" id="objective" name="objective" placeholder="e.g., first executive meetings in Brazil">
+          </div>
+
+          <div class="field consent">
+            <input type="checkbox" id="consent" name="consent" required style="margin-top:4px;">
+            <label for="consent">I agree to be contacted about this request and understand my information will be used to prepare the discovery call.</label>
+          </div>
+          <div class="err" id="err-consent">Please accept to proceed.</div>
+
+          <div class="sp-4"></div>
+
+          <button type="submit" class="btn btn-primary">Request discovery call</button>
+          <span class="muted"> &nbsp; Prefer to pick a time now? <a class="btn-link" href="https://calendly.com/your-link-here" target="_blank" rel="noopener">Open Calendly</a></span>
+
+          <p class="ok" id="ok-msg">Thanks—your request is in. We’ll reply within one business day. You can also book directly: <a class="btn-link" href="https://calendly.com/your-link-here" target="_blank" rel="noopener">Open Calendly</a></p>
+        </form>
+      </div>
+    
+
+  </section>
+
+  <footer>
+  <a href="https://leapgrowth.io/privacy-policy" class="a3">Privacy Policy</a>
+  <p class="p2">Copyright © 2022 Leap Growth - All Rights Reserved</p>
+</footer>
+
+
+
+
+  
+  
+</body>
+</html>

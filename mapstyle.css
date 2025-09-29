@@ -1,0 +1,282 @@
+*{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Inter,Helvetica,Arial,sans-serif;
+    text-decoration: none;
+
+}
+.logo{
+  display: block;
+  margin: 20px auto;
+  max-width: auto;
+  height: auto;
+}
+
+nav{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  font-family: Open Sans, Helvetica, sans-serif;
+  color: black;
+  font-size: 22px;
+  font-weight: lighter;
+}
+a{
+  color: black;
+  
+}
+a:hover{
+  color: rgb(144, 143, 143);
+  text-decoration: underline;
+}
+
+.navHeader{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  font-family:  Open Sans, Helvetica, sans-serif;
+  color:rgb(144, 143, 143);
+  font-size: 22px;
+  font-weight: lighter;
+  
+}
+.callRequest {
+  display: block;
+  margin: 90px auto 90px auto;
+  height: 132.2px;
+  width: 1232.1px;
+  background: linear-gradient(to right, rgb(63, 65, 94), rgb(43, 46, 54));;
+  color: #fff;
+  padding: 64px;
+  margin-bottom: 12px;
+}
+
+
+
+.request-grid{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+
+
+:root {
+  --primary: #6a4bff;
+  --primary-dark: #5237d9;
+  --bg: #f9fafb;
+  --text: #1f2937;
+  --text-light: #6b7280;
+  --error: #dc2626;
+  --radius: 0.75rem;
+  --muted: #6b7280;
+}
+
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+
+
+.logo{
+  display: block;
+  margin: 0px auto;
+  max-width: auto;
+  height: auto;
+}
+
+
+.navHeader {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem 0;
+  background: #fff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.navHeader a {
+  text-decoration: none;
+  font-weight: 200;
+  color: var(--text);
+  transition: color 0.2s;
+}
+
+.navHeader a:hover {
+  color: var(--primary);
+}
+
+
+.callRequest {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.callRequest h5 {
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+    margin-top: -20.952px;
+}
+
+.callRequest h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.callRequest p {
+  color: var(--text-light);
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.forms {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem 4rem;
+}
+
+.card {
+  width: 100%;
+  max-width: 650px;
+  background: #fff;
+  padding: 2rem;
+  border-radius: var(--radius);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.grid-2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 640px) {
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: 500;
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
+}
+
+input,
+select {
+  padding: 0.9rem 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: var(--radius);
+  font-size: 1rem;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(106, 75, 255, 0.2);
+}
+
+.checks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.check input {
+  margin-right: 0.4rem;
+}
+
+.err {
+  display: none; 
+  color: var(--error);
+  font-size: 0.85rem;
+  margin-top: 0.3rem;
+}
+
+.muted {
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-top: 0.3rem;
+}
+
+.ok {
+  display: none;
+  margin-top: 1rem;
+  font-weight: 500;
+  color: green;
+}
+
+
+button,
+.btn {
+  display: inline-block;
+  padding: 1rem;
+  background: var(--primary);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+button:hover,
+.btn:hover {
+  background: var(--primary-dark);
+}
+
+button:active,
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-link {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+}
+
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  border-top: 1px solid #e5e7eb;
+  background: #fff;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+footer .a3 {
+  margin-bottom: 0.3rem;
+}
+ 
+
+input#consent{
+  margin-top: 15px;
+  border-left-width: -24px;
+  margin-left: -633px;
+  border-top-width: 0px;
+  
+}
