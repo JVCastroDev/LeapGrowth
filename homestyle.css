@@ -269,7 +269,6 @@ a:hover{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  align-items: stretch;
   gap: 15px;
 }
 .card-wu{
