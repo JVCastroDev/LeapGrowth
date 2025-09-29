@@ -267,10 +267,11 @@ a:hover{
 
 .grid-section {
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: stretch;
   gap: 15px;
-  flex-wrap: wrap; /* garante responsividade */
+  flex-wrap: wrap; 
 }
 .card-wu{
 
