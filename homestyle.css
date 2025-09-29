@@ -126,7 +126,7 @@ a:hover{
   display: flex;
 }
 .wwd{
-  padding: 56px 0;
+  padding: 56px ;
   border-top: 1px solid #E2E3E5;
 }
 .grid-wwd{
@@ -148,7 +148,7 @@ a:hover{
 
 }
 .card-wwd1 p{
-  padding: 15px;
+  padding: 5px;
   
   color: #363f4f;
   font-size: 20px;
@@ -160,7 +160,7 @@ a:hover{
 
 }
 .card-wwd p{
-  padding: 15px;
+  padding: 5px;
   
   color: #363f4f;
   font-size: 20px;
@@ -172,7 +172,7 @@ a:hover{
 
 }
 .card-wwd3 p{
-  padding: 15px;
+ 
 
   color: #363f4f;
   font-size: 20px;
@@ -221,6 +221,8 @@ a:hover{
   padding: 22px;
   color: #F3F4F6;
   height: 273px;
+  width: 300px;
+  
 }
 .card-hiw h3{
 
@@ -248,24 +250,20 @@ a:hover{
   color: black;
 }
 .info-wwf {
-  
+
   color: #363f4f;
   font-size: 20px;
   line-height: 1.55;
-  
+
 }
 
 .wu{
-
   color: #FDFEFE;
   background-color: #10182b;
   padding: 50px;
- 
-
-
 }
-
 .grid-section {
+
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -279,6 +277,7 @@ a:hover{
       padding: 22px;
       color: #F3F4F6;
       height: 273px;
+      width: 300px;
   
 }
 .card-wu1{
@@ -288,7 +287,7 @@ a:hover{
       padding: 22px;
       color: #F3F4F6;
       height: 273px;
-      width: 350px;
+      width: 300px;
 
 
 }
@@ -299,7 +298,7 @@ a:hover{
       padding: 22px;
       color: #F3F4F6;
       height: 273px;
-      width: 350px;
+      width: 300px;
 }
 .card-wu3{
       background: #121929;
@@ -308,7 +307,7 @@ a:hover{
       padding: 22px;
       color: #F3F4F6;
       height: 273px;
-      width: 350px
+      width: 300px
 }
 
 .card-wu1 h3{
@@ -349,7 +348,8 @@ color: #D1D5DB;
 .grid-tryout{
  
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
   background-color: #FAFBFC;
  
