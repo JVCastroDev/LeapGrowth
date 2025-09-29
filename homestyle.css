@@ -86,7 +86,7 @@ a:hover{
   font-size: 28px;
 }
 .problem-side ul{
- color: black;
+ color: blackw;
   
   font-size: 22px;
 
@@ -212,12 +212,7 @@ a:hover{
   padding: 50px;
   
 }
-.grid-hiw{
-  gap: 15px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
+
 
 .card-hiw{
  background: #121929;
@@ -270,14 +265,12 @@ a:hover{
 
 }
 
-.wu-grid{
-
-    gap: 15px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-
-
+.grid-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  gap: 15px;
+  flex-wrap: wrap; /* garante responsividade */
 }
 .card-wu{
 
